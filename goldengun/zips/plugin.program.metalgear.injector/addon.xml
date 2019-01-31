@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.metalgear.injector" name="Metalgear Injector" version="2.5" provider-name="Solid_Snake">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.artwork.beef"/> 
+    <import addon="plugin.video.metalgear"/>
+    <import addon="service.libraryautoupdate"/>	
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tool for injecting libraries to your media centre in .strm format.....</summary>
+    <description lang="en">Tool for injecting libraries to your media centre in .strm format.....</description>
+    <platform>all</platform> 
+  </extension>
+</addon>
