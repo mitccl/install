@@ -1,0 +1,11 @@
+  <dir>
+    <title>Movies 4K</title>
+    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/4k.xml</link>
+	<thumbnail>http://46.29.166.79/solidbuilds/r4k.png</thumbnail>
+  </dir>
+  
+  <dir>
+    <title>1 Click Movies</title>
+    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/1click.xml</link>
+	<thumbnail>http://46.29.166.79/solidbuilds/rclick.png</thumbnail>
+  </dir>
