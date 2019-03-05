@@ -1,5 +1,5 @@
 <addons>
-<addon id="plugin.video.resistance" version="6.0.0.0.0" name="resistance" provider-name="resistance">
+<addon id="plugin.video.resistance" version="6.1.0.0.0" name="resistance" provider-name="resistance">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.resistance" />
@@ -27,7 +27,7 @@
     <news></news>
     </extension>
 </addon>
-<addon id="script.module.resistance" version="25.2.2019" name="Resistance" provider-name="resistance">
+<addon id="script.module.resistance" version="25.25.2019" name="Resistance" provider-name="resistance">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
