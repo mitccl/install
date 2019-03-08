@@ -61,7 +61,7 @@
     <news></news>
     </extension>
 </addon>
-<addon id="script.module.resistance" version="26.25.2019" name="Resistance" provider-name="resistance">
+<addon id="script.module.resistance" version="26.26.2019" name="Resistance" provider-name="resistance">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
