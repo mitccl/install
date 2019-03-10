@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.resistance" version="26.26.2019" name="Resistance" provider-name="resistance">
+<addon id="script.module.resistance" version="5.5.5.5" name="Resistance" provider-name="resistance">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
