@@ -1,0 +1,21 @@
+[B]1.2.9[/B]
+- Fixed Missing Add To Library
+- Fixed People Watching
+- Fixed Clear Search
+- Fixed CloudFlare
+- Added Some New Scrapers and Removed Some Dead Ones
+
+[B]1.2.8[/B]
+- Reverted Fix for In Theatres
+
+[B]1.2.7[/B]
+- Updated Popup
+
+[B]1.2.6[/B]
+- Removed Broken Scrapers
+- Added some new Free Sources
+- Switched to ResolveURL from URLResolver
+- Added Support for Scraping Torrent Sites
+- Added Real-Debrid Mod addon as a Dependency
+- Added Support for Orion
+
