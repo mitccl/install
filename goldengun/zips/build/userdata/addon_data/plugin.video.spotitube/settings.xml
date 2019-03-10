@@ -1,0 +1,22 @@
+<settings version="2">
+    <setting id="blacklist" default="true"></setting>
+    <setting id="cacheDir">special://profile/addon_data/plugin.video.spotitube/cache</setting>
+    <setting id="cacheLong">1</setting>
+    <setting id="deezerSearch_count" default="true">50</setting>
+    <setting id="deezerVideos_count" default="true">50</setting>
+    <setting id="forceView" default="true">false</setting>
+    <setting id="infoDelay">12</setting>
+    <setting id="infoDuration">12</setting>
+    <setting id="infoType">1</setting>
+    <setting id="itunesCountry" default="true"></setting>
+    <setting id="itunesForceCountry" default="true">false</setting>
+    <setting id="itunesShowSubGenres">true</setting>
+    <setting id="label0" default="true"></setting>
+    <setting id="showInfo">true</setting>
+    <setting id="spotifyCountry" default="true"></setting>
+    <setting id="spotifyForceCountry" default="true">false</setting>
+    <setting id="useThumbAsFanart">true</setting>
+    <setting id="viewIDGenres">500</setting>
+    <setting id="viewIDPlaylists">500</setting>
+    <setting id="viewIDVideos">500</setting>
+</settings>

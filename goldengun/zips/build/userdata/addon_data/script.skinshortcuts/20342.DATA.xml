@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Search</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5clockdown%5cDesktop%5cKodi%5cportable_data%5caddons%5cscript.resistance.artwork%5cresources%5cmedia%5cresistance%5c5.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.resistance/?action=movieSearch",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>titles</defaultID>
+		<label>library</label>
+		<label2>Custom item</label2>
+		<icon>special://skin/extras/icons/DefaultFolder.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,library://video/movies/titles.xml/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>script.artwork.beef</defaultID>
+		<label>Artwork Beef</label>
+		<label2>Program</label2>
+		<icon>special://skin/extras/icons/DefaultAddon.png</icon>
+		<thumb>image://C%3a%5cUsers%5clockdown%5cDesktop%5cKodi%5cportable_data%5caddons%5cscript.artwork.beef%5cicon.png/</thumb>
+		<action>RunAddOn(script.artwork.beef)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>resistance</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5clockdown%5cDesktop%5cKodi%5cportable_data%5caddons%5cscript.resistance.artwork%5cresources%5cmedia%5cresistance%5c2.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.resistance/?action=movieNavigator",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>deciet</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://http%3a%2f%2fdeceitaddon.co.uk%2fArtwork%2fMainart%2fmovies.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.deceit/?mode=get_list&amp;url=http%3A%2F%2Fwww.deceitaddon.co.uk%2FXmls%2FMainMenuXmls%2FMovieXmls%2Fmovies.xml&amp;name=%5BCOLORwhite%5D%5BB%5DMOVIES%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=http%3A%2F%2Fdeceitaddon.co.uk%2FArtwork%2FMainart%2Fmovies.png&amp;fanart=C%3A%5CUsers%5Clockdown%5CDesktop%5CKodi%5Cportable_data%5Caddons%5Cplugin.video.deceit%5Cfanart.jpg&amp;description=No+information+available",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>jor el</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5clockdown%5cDesktop%5cKodi%5cportable_data%5caddons%5cscript.jor-el.artwork%5cresources%5cmedia%5cjor-el%5cmovies.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.jor-el/?action=movieNavigator",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>kids movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fs2kQwPK.jpg/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.supremacy/?action=directory&amp;url=http%3A%2F%2Fstephen-builds.uk%2Fsupremacy%2520changeing%2FKid%27s%2520movies.xml&amp;content=movies",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>kiddo</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fCellarDoorTV%2fCDTV%2fmaster%2fKiddo%2fkiddo_anime_films.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.kiddo/?mode=tmdb&amp;url=genre%2Fmovies%2F16&amp;name=%5BCOLOR+FFffffffff%5D%5BCOLORdarkgoldenrod%5D%5BB%5D%2A%2A%2A%5B%2FCOLOR%5D%5BCOLORburlywood%5D%2A%2A%5B%2FB%5D%5B%2FCOLOR%5D%5BCOLOR%3Dghostwhite%5D++++++Animation+Movies%5B%2FCOLOR%5D%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fraw.githubusercontent.com%2FCellarDoorTV%2FCDTV%2Fmaster%2FKiddo%2Fkiddo_anime_films.png&amp;fanart=C%3A%5CUsers%5Clockdown%5CDesktop%5CKodi%5Cportable_data%5Caddons%5Cplugin.video.kiddo%5Cfanart.gif&amp;description=No+information+available",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Movies 4K</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fGoldengunrepo%2finstall%2fmaster%2fgoldengun%2fxml%2fd.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.resistance/?action=directory&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2FGoldengunrepo%2Finstall%2Fmaster%2Fgoldengun%2Fxml%2F4k.xml&amp;content=addons",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>1 Click Movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fGoldengunrepo%2finstall%2fmaster%2fgoldengun%2fxml%2fd.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.resistance/?action=directory&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2FGoldengunrepo%2Finstall%2Fmaster%2Fgoldengun%2Fxml%2F1click.xml&amp;content=addons",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>collections</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fGoldengunrepo%2finstall%2fmaster%2fgoldengun%2fxml%2fd.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.resistance/?action=directory&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2FGoldengunrepo%2Finstall%2Fmaster%2Fgoldengun%2Fxml%2Fcollections.xml&amp;content=addons",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>supremacy</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fs2kQwPK.jpg/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.supremacy/?action=movieNavigator",return)</action>
+	</shortcut>
+</shortcuts>

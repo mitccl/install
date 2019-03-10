@@ -1,0 +1,99 @@
+<sources>
+  <programs>
+    <default pathversion="1" />
+  </programs>
+  <video>
+    <default pathversion="1" />
+    <source>
+      <name>[COLOR cyan]metalgear[/COLOR] Movies</name>
+      <path pathversion="1">special://profile/addon_data/plugin.video.metalgear/Movies/</path>
+      <thumbnail pathversion="1">https://github.com/Goldengunrepo/Style/raw/master/metalgear/default/movies.png</thumbnail>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>[COLOR cyan]metalgear[/COLOR] TV shows</name>
+      <path pathversion="1">special://profile/addon_data/plugin.video.metalgear/TVShows/</path>
+      <thumbnail pathversion="1">https://github.com/Goldengunrepo/Style/raw/master/metalgear/default/tv.png</thumbnail>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>[COLOR cyan]metalgear[/COLOR] Music videos</name>
+      <path pathversion="1">special://profile/addon_data/plugin.video.metalgear/Music/</path>
+      <thumbnail pathversion="1">https://github.com/Goldengunrepo/Style/raw/master/metalgear/default/musicvideos.png</thumbnail>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>[COLOR cyan]metalgear[/COLOR] Channels</name>
+      <path pathversion="1">special://profile/addon_data/plugin.video.metalgear/Live/</path>
+      <thumbnail pathversion="1">https://github.com/Goldengunrepo/Style/raw/master/metalgear/default/live.png</thumbnail>
+      <allowsharing>true</allowsharing>
+    </source>
+  </video>
+  <music>
+    <default pathversion="1" />
+  </music>
+  <pictures>
+    <default pathversion="1" />
+  </pictures>
+  <files>
+    <default pathversion="1" />
+    <source>
+      <name>repo</name>
+      <path pathversion="1">http://cerbrepo.space/repo/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>jorel</name>
+      <path pathversion="1">http://kodihelp.net/repo/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>suprem</name>
+      <path pathversion="1">http://supremacy.org.uk/zip/repo/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>clown</name>
+      <path pathversion="1">https://13clowns.github.io/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>plex c</name>
+      <path pathversion="1">https://troypoint.com/repo/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>me</name>
+      <path pathversion="1">https://goldengunrepo.github.io/install/me/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>mavrepo</name>
+      <path pathversion="1">http://mavericktv.net/mavrepo/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>one</name>
+      <path pathversion="1">http://www.onenation.info/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>cdtv</name>
+      <path pathversion="1">https://cellardoortv.com/repo</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>kodil</name>
+      <path pathversion="1">http://www.lvtvv.com/repo/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+    <source>
+      <name>lazy</name>
+      <path pathversion="1">http://lazykodi.com/</path>
+      <allowsharing>true</allowsharing>
+    </source>
+  </files>
+  <games>
+    <default pathversion="1" />
+  </games>
+</sources>

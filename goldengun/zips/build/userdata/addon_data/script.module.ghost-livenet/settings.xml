@@ -1,0 +1,8 @@
+<settings version="2">
+    <setting id="cache_time">8</setting>
+    <setting id="data_time">1551874516</setting>
+    <setting id="inputstream" default="true">false</setting>
+    <setting id="livestreamer" default="true">false</setting>
+    <setting id="reset" default="true">33</setting>
+    <setting id="user_id" default="true">225230ad00326015acea7df2864b714c</setting>
+</settings>

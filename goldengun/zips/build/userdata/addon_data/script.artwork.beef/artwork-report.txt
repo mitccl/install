@@ -1,0 +1,7 @@
+= Versions: ArtworkBeef/0.23.1 Kodi/18.0-RC5 (Windows NT 10.0.17134; Win64; x64) App_Bitness/64 Version/18.0-RC5-Git:20190111-baff0a1838
+
+== 2019-03-05 05:04:30 PM: Processing list automatically
+4 items in list - movie: 2, set: 1, tvshow: 1
+2019-03-05 05:04:41 PM: Processing finished
+35 artwork updated - fanart: 16, discart: 2, clearlogo: 4, characterart: 1, landscape: 4, banner: 3, clearart: 4, season.1.fanart: 1
+
