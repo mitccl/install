@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><smartplaylist type="tvshows"><name>Doom Patrol</name><match>all</match><rule field="path" operator="contains"><value>/addon_data/plugin.video.metalgear/TVShows/355622</value></rule><rule field="playcount" operator="is"><value>0</value></rule><order direction="ascending">numepisodes</order></smartplaylist>
