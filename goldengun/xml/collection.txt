@@ -1,0 +1,5 @@
+name="Aliens Collection"
+url="https://archive.org/download/crowscare244_gmail_Rap/aliens.zip"
+img="https://archive.org/download/crowscare244_gmail_Rap/aliens.png"
+fanart="https://i.imgur.com/CaTD18H.jpg"
+description="Aliens Collection"
