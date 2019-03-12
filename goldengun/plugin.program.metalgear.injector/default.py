@@ -20,7 +20,7 @@ PATH = "metalgear"
 
 
 def CATEGORIES():
-    link = OPEN_URL('http://www.reaperslockedmadhouse.com/metalgearlibs/collection.txt').replace('\n','').replace('\r','')  #HERE YOU NEED TO ADDRESS FOR THE XML FILE ON YOU WEBSPACE THIS WILL BE WHERE YOU HAVE THE PATH TO YOUR ZIP FILES
+    link = OPEN_URL('https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/collection.txt').replace('\n','').replace('\r','')  #HERE YOU NEED TO ADDRESS FOR THE XML FILE ON YOU WEBSPACE THIS WILL BE WHERE YOU HAVE THE PATH TO YOUR ZIP FILES
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
     for name,url,iconimage,fanart,description in match:
         addDir(name,url,1,iconimage,fanart,description)
