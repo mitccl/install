@@ -1,3 +1,9 @@
+name="Heroes Collection"
+url="https://archive.org/download/crowscare244_gmail_Rap/Heroes%20Collection.zip"
+img="https://archive.org/download/crowscare244_gmail_Rap/heroes.png"
+fanart="http://www.androidguys.com/wp-content/uploads/2016/06/Texture-wallpapers-HD-victorian.png"
+description="Heroes Collection"
+
 name="Aliens Collection"
 url="https://archive.org/download/crowscare244_gmail_Rap/aliens.zip"
 img="https://archive.org/download/crowscare244_gmail_Rap/aliens.png"
