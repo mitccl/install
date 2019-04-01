@@ -1,3 +1,11 @@
+name="Extras Section"
+section="yes"
+url="https://archive.org/download/signed_lockdown/apk2.xml"
+icon="https://archive.org/download/signed_lockdown/1819363604356057152.png"
+fanart="https://archive.org/download/signed_lockdown/transformers2215440%20%281%29.jpg"
+adult="no"
+description="Extras"
+
 name="Lockdown 18.1_64bit Repository Inside"
 section="no"
 url="https://archive.org/download/signed_lockdown/signed_lockdown.apk"
