@@ -100,7 +100,7 @@
         <video_guide></video_guide>
     </extension>
 </addon>
-<addon id="script.module.resistancescrapers" name="resistance Module" version="1.2.3.6" provider-name="resistance">
+<addon id="script.module.resistancescrapers" name="resistance Module" version="2.2.3.7" provider-name="resistance">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -742,6 +742,68 @@ level.</description>
     <website>http://code.google.com/p/mutagen/</website>
     <source>https://bitbucket.org/lazka/mutagen/overview</source>
   </extension>
+</addon>
+<addon id="plugin.video.ego" version="1.0.0.0" name="I Am Ego" provider-name="Guardian">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.ego" />
+		<import addon="script.ego.artwork" />
+		<import addon="script.ego.metadata" />
+		<import addon="script.module.resolveurl" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.resistancescrapers" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">I Am Ego</summary>
+		<description lang="en">[B]I Am Ego[/B]</description>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot></screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+<addon id="script.module.ego" name="I Am Ego Module" version="2.0.3" provider-name="Guardian">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">I Am Ego</summary>
+	</extension>
+</addon>
+<addon id="script.ego.artwork" version="1.0.2" name="I Am Ego Artwork" provider-name="Guardian">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the I Am Ego Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="script.ego.metadata" version="1.0.2" name="I Am Ego Metadata" provider-name="Guardian">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the I Am Ego Addon</summary>
+		<description>Metadata for I Am Ego are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 <addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2019.03.23" provider-name="Bugatsinho">
     <requires>
