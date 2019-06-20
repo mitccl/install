@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.ego" name="I Am Ego Module" version="2.0.4.0" provider-name="Guardian">
+<addon id="script.module.ego" name="I Am Ego Module" version="2.0.4.1" provider-name="Guardian">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
