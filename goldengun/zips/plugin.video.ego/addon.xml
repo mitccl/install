@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ego" version="1.0.0.0" name="I Am Ego" provider-name="Guardian">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.ego" />
-		<import addon="script.ego.artwork" />
-		<import addon="script.ego.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.resistancescrapers" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">I Am Ego</summary>
-		<description lang="en">[B]I Am Ego[/B]</description>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot></screenshot>
-		</assets>
-		<news></news>
-	</extension>
+<addon id="plugin.video.ego" name="[COLOR yellow]I Am Ego[/COLOR]" provider-name="Guardian" version="9.9.9.9.9.9.9">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.ego" />
+        <import addon="script.ego.artwork" />
+        <import addon="script.ego.metadata" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.metahandler" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="[startup|login]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_US">I Am Ego The Eater Of Planets....</summary>
+        <description lang="en_US">Movies, Tv Shows, Kodi Plugin </description>
+        <disclaimer lang="en_US">Simple search engine for movie and tv show sites the author is not responsible for the content found on those sites</disclaimer>
+        <license>freeware</license>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>[B] Total CleanUp of EN Providers[/B]: Checked and all good as of 06-17-2019. [CR][B] (If a non-en provider is broken let me know, as i dont bother with em.)[/B] [CR][B] (Please Report Any Issues To Me Directly. Details Are in Settings.)[/B] </news>
+    </extension>
 </addon>
