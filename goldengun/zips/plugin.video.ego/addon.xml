@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ego" name="[COLOR yellow]I Am Ego[/COLOR]" provider-name="Guardian" version="9.9.9.9.9.9.9">
+<addon id="plugin.video.ego" name="[COLOR yellow]I Am Ego[/COLOR]" provider-name="Guardian" version="9.9.9.9.9.9.9.9">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.ego" />
