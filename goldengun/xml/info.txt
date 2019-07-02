@@ -1,13 +1,11 @@
 Latest News..
 
------script.module.ego updated to 2.0.4.1-----
+Icons Have Been Highly Compressed To Save Space And Faster Installs.....
+
+-----script.module.ego updated-----
 
 certificates fixed added to movies section..
 
-Welcome to [I Am Ego] Please join telegram for help and support..
-
-(https://t.me/joinchat/ErNAyBQtO-f9opZDSLI0mA)
-
-If you would like to buy us a beer...
+Welcome to [I Am Ego]
 
 (https://paypal.me/pools/c/87X0Zn3AEW)
