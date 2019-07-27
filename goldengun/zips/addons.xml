@@ -48,6 +48,33 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+<addon id="skin.aeon.nox.s.e" version="1.1.1.1" name="Aeon Nox :S/E: Special Edition" provider-name="Lockdown">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0" />
+		<import addon="script.skinshortcuts" version="1.0.10" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="script.grab.fanart" version="0.12.8" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Created by BigNoid, Modded by Lockdown, </summary>
+		<description lang="en_GB">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<website>https://github.com/</website>
+		<source>https://github.com/</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news>[I][COLOR FFFF9800]v7.0.2[/COLOR][/I][CR]- Add an option for 2, 3, and 4 seconds to fanart per image time[CR]- Fix star ratings in DialogSubtitles.xml[CR]- Vertical Menu fixes[CR]- Add option to Fullscreen Video Info to Show More Details when pressing down[CR]- Fixes for LibreELEC and CoreELEC settings menus[CR]- PVR fixes and additions[CR]- Add support for Atmos and DTS:X icons[CR]- Add Fanart List for Sets[CR][I][COLOR FFFF9800]v7.0.1[/COLOR][/I][CR]- Make fullscreen info for recordings (Skin settings > Customization > Live TV) and add-ons (Skin settings > Customization > Video OSD) opt-in[CR]- Fix auto fullscreen music launching on PVR playback[CR][I][COLOR FFFF9800]v7.0.0[/COLOR][/I][CR]- Add RightList and Logo views for Movie Sets[CR]- Fix for Square Widgets[CR]- Add option to move VideoOSD buttons to top[CR]- Add tiny posters to Fullscreen Wall[CR]- Caviar Dreams font fixes[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikes.e164/Aeon-Nox-s.e/commits/master[/COLOR][/I]</news>
+	</extension>
+</addon>
 <addon id="plugin.video.ghost" name="Ghost" version="3.5" provider-name="Ghost">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
