@@ -1,5 +1,5 @@
 <addons>
-<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.1" provider-name="goldengun">
+<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.2" provider-name="goldengun">
 	<extension point="xbmc.addon.repository" name="goldengun">
 	    <dir>
 		    <info compressed="false">https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/zips/addons.xml</info>
@@ -41,6 +41,11 @@
             <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
         </dir>
+		<dir>
+			<info>https://raw.githubusercontent.com/louisbraun/repoaddons/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/louisbraun/repoaddons/master/addons.xml.md5</checksum>
+			<datadir>https://github.com/louisbraun/repoaddons/raw/master/addons</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>goldengun</summary>
@@ -74,58 +79,6 @@
 		</assets>
 		<news>[I][COLOR FFFF9800]v7.0.2[/COLOR][/I][CR]- Add an option for 2, 3, and 4 seconds to fanart per image time[CR]- Fix star ratings in DialogSubtitles.xml[CR]- Vertical Menu fixes[CR]- Add option to Fullscreen Video Info to Show More Details when pressing down[CR]- Fixes for LibreELEC and CoreELEC settings menus[CR]- PVR fixes and additions[CR]- Add support for Atmos and DTS:X icons[CR]- Add Fanart List for Sets[CR][I][COLOR FFFF9800]v7.0.1[/COLOR][/I][CR]- Make fullscreen info for recordings (Skin settings > Customization > Live TV) and add-ons (Skin settings > Customization > Video OSD) opt-in[CR]- Fix auto fullscreen music launching on PVR playback[CR][I][COLOR FFFF9800]v7.0.0[/COLOR][/I][CR]- Add RightList and Logo views for Movie Sets[CR]- Fix for Square Widgets[CR]- Add option to move VideoOSD buttons to top[CR]- Add tiny posters to Fullscreen Wall[CR]- Caviar Dreams font fixes[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikes.e164/Aeon-Nox-s.e/commits/master[/COLOR][/I]</news>
 	</extension>
-</addon>
-<addon id="plugin.video.ghost" name="Ghost" version="3.5" provider-name="Ghost">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-		<import addon="plugin.video.SportsDevil" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Movies Tv Shows</summary>
-      <description lang="en">Movies Tv Shows</description>
-      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-      <platform>all</platform>
-        <website></website>
-        <video_guide></video_guide>
-    </extension>
-</addon>
-<addon id="plugin.video.voodoo" name="Voodoo" version="1.5" provider-name="Voodoo">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-		<import addon="plugin.video.SportsDevil" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Movies Tv shows</summary>
-      <description lang="en">Movies Tv shows</description>
-      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-      <platform>all</platform>
-        <website></website>
-        <video_guide></video_guide>
-    </extension>
 </addon>
 <addon id="script.module.resistancescrapers" name="resistance Module" version="2.2.3.7" provider-name="resistance">
     <requires>
@@ -262,80 +215,44 @@
     <news></news>
     </extension>
 </addon>
-<addon id="plugin.video.metalgear" name="Metalgear" version="7.1.1" provider-name="Solid_Snake">
+<addon id="plugin.video.metalgear" name="Metalgear" version="7.2.2" provider-name="Lockdown">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="metadata.tvdb.com" version="3.0.14"/>
 		<import addon="script.module.futures" version="2.2.0"/>
+		<import addon="script.module.requests" version="2.19.1"/>
+		<import addon="script.module.requests-cache" version="0.4.13"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video audio</provides>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="login">
-	</extension>
+	<extension point="xbmc.service" library="service.py"/>
 	<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
-			<menu>
-				<label>Metalgear</label>
-				<item library="context_toggle.py">
-					<label>Preferred toggle</label>
-					<visible>!System.HasAddon(context.metalgear) + !Skin.HasSetting(Toggling)</visible>
-				</item>
-				<item library="context_movie.py">
-					<label>$ADDON[plugin.video.metalgear 30602]</label>
-					<visible>String.IsEqual(ListItem.dbtype,movie) + String.Contains(ListItem.Path, plugin.video.metalgear)</visible>
-				</item>
-				<item library="context_tvshow.py">
-					<label>$ADDON[plugin.video.metalgear 30602]</label>
-					<visible>String.IsEqual(ListItem.dbtype,tvshow) + String.Contains(ListItem.Path, plugin.video.metalgear)</visible>
-				</item>
-				<item library="context_live.py">
-					<label>$ADDON[plugin.video.metalgear 30602]</label>
-					<visible>[String.Contains(ListItem.FileNameAndPath, plugin.video.metalgear\\Live) | String.Contains(ListItem.FileNameAndPath, plugin.video.metalgear\\Live)]</visible>
-				</item>
-				<item library="context_playable.py">
-					<label>$ADDON[plugin.video.metalgear 30622]</label>
-					<visible>!System.HasAddon(context.metalgear) + !Skin.HasSetting(Contexting)</visible>
-				</item>
-			</menu>
+			<item library="context.py">
+				<label>Metalgear - Default Player</label>
+				<visible>!String.StartsWith(ListItem.path,plugin://plugin.video.metalgear/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+			</item>
+			<item library="context2.py">
+				<label>Metalgear - Choose Player</label>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
+			</item>
 		</menu>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<language></language>
-		<summary lang="en">This Addon allows you to browse and search for media and then pass that to whatever addon you want to play it with</summary>
-		<description lang="en">This Addon allows you to browse and search for media and then pass that to whatever addon you want to play it with. [COLOR cyan]I take no Credit for 99.99% of this code. Without the original developers,  this add-on would never exist. Thanks for all they have doen to the community.[/COLOR]</description>
-		<supportedcontent>
-			<content>movies</content>
-			<content>tvshows</content>
-			<content>episodes</content>
-			<content>musicvideos</content>
-			<content>music</content>
-			<content>livetv</content>
-		</supportedcontent>
-		<genre>movies,tv,music,livetv</genre>
-		<!--<video_guide>yt-id</video_guide>
-		<video_preview>yt-id</video_preview>-->
-		<forum></forum>
-		<source></source>
-		<email></email>
-		<news></news>
-                <website></website>
-
-		<source></source>
-
+		<summary lang="en">TMDb, TVDb and Trakt browser</summary>
+		<description lang="en">Browse The MovieDb, The TVDb, Trakt and pass info along to library or an addon. Needs player-files and the appropriate addon to play the files.</description>
 		<assets>
-
 			<icon>icon.gif</icon>
-
 			<fanart>fanart.jpg</fanart>
-
 		</assets>
-
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
 		<news></news>
-
 	</extension>
-
 </addon>
 <addon id="plugin.program.metalgear" name="Metalgear Wizard" version="1.1.1" provider-name="Solid_Snake">
   <requires>
@@ -410,38 +327,39 @@ For updates check the readme.
     <platform>all</platform> 
   </extension>
 </addon>
-<addon id="script.metalgearsolid" name="metalgearsolid" version="9.1.0.3" provider-name="metalgearsolid">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-    <import addon="script.module.pil" version="1.1.7"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-    <import addon="script.module.simplejson" version="2.0.10"/>
-    <import addon="script.module.resolveurl"/>
-    <import addon="script.module.youtube.dl"/>
-    <import addon="plugin.program.super.favourites"/>
-    <import addon="plugin.video.youtube" version="6.2.2"/>
-    <import addon="resource.images.studios.white" version="0.0.18"/>
-    <import addon="plugin.video.metalgear"/>
-  </requires>
-  <extension point="xbmc.python.script"             library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.python.library"            library="default.py" />
-  <extension point="xbmc.python.pluginsource"       library="plugin.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language/>
-    <summary lang="en">ExtendedInfo script to work with plugin.video.metalgear</summary>
-    <description>ExtendedInfo script to work with plugin.video.metalgear</description>
-    <platform>all</platform>
-    <reuselanguageinvoker>false</reuselanguageinvoker>
-    <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-    <assets>
-    <icon>icon.gif</icon>
-    <fanart>fanart.jpg</fanart>
-    </assets>	
-  </extension>
+<addon id="script.metalgearsolid" name="Metalgearsolid" version="9.1.1.3" provider-name="Lockdown">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+		<import addon="plugin.video.youtube" version="6.2.2"/>
+		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="resource.images.studios.white" version="0.0.18"/>
+		<import addon="plugin.video.metalgear" version="1.0.0" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.script" library="script.py"/>
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="context.py">
+				<label>Metalgearsolid</label>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<platform>all</platform>
+		<summary>Fork of the ExtendedInfo script from phil65</summary>
+		<description>This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Needs skin implementation for lot of functions and metalgear for library functions.</description>
+		<assets>
+			<icon>icon.gif</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 <addon id="script.artwork.beef" name="Artwork Beef" version="0.23.2" provider-name="rmrector">
 	<requires>

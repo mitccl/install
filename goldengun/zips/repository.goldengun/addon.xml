@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.1" provider-name="goldengun">
+<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.2" provider-name="goldengun">
 	<extension point="xbmc.addon.repository" name="goldengun">
 	    <dir>
 		    <info compressed="false">https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/zips/addons.xml</info>
@@ -41,6 +41,11 @@
             <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
         </dir>
+		<dir>
+			<info>https://raw.githubusercontent.com/louisbraun/repoaddons/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/louisbraun/repoaddons/master/addons.xml.md5</checksum>
+			<datadir>https://github.com/louisbraun/repoaddons/raw/master/addons</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>goldengun</summary>
