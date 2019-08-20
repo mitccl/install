@@ -103,51 +103,48 @@
     <news></news>
     </extension>
 </addon>
-<addon id="plugin.video.resistance" version="6.1.0.0.0" name="resistance" provider-name="resistance">
-   <requires>
+<addon id="plugin.video.resistance" version="6.1.0.0.1" name="[COLOR skyblue]Resistance[/COLOR]" provider-name="Resistance">
+    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.resistance" />
         <import addon="script.resistance.artwork" />
         <import addon="script.resistance.metadata" />
         <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.metahandler" />
-        <import addon="script.module.resistancescrapers" />
+        <import addon="script.module.metahandler" version="1.0.0" />
+        <import addon="plugin.video.youtube" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="resistance.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Resistance video plugin</summary>
+        <summary lang="en">Resistance tv/movie plugin</summary>
         <description lang="en"></description>
-        <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    <news></news>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum></forum>
+        <website></website>
+        <source></source>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news></news>
     </extension>
 </addon>
-<addon id="script.module.resistance" version="5.5.5.5" name="Resistance" provider-name="resistance">
+<addon id="script.module.resistance" name="[COLOR skyblue]Resistance MODULE[/COLOR]" version="5.5.5.5.6" provider-name="Resistance">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-    <summary lang="en">resistance video plugin script</summary>
-    <description lang="en"></description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news></news>
+        <platform>all</platform>
+        <summary lang="en">Resistance Module</summary>
+        <assets>
+          <icon>icon.png</icon>
+        </assets>       
     </extension>
 </addon>
 <addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.36" provider-name="elgatito">
@@ -176,43 +173,29 @@
     </extension>
 </addon>
 <addon id="repository.elementum" name="Elementum Repository" version="0.1.31" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
-<addon id="script.resistance.artwork" version="2.0.1" name="[B][COLOR red]resistance[/COLOR] Artwork[/B]" provider-name="resistance">
+<addon id="script.resistance.artwork" version="2.0.2.7" name="[COLOR skyblue]Resistance ARTWORK[/COLOR]" provider-name="Resistance">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]resistance[/COLOR] Artwork[/B] is a free portal for circus freaks to see the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
+        <summary>Resistance Artwork</summary>
+        <description></description>
+        <platform>all</platform>
+        <assets>
+          <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
-<addon id="script.resistance.metadata" version="2.0.1.0" name="resistance" provider-name="resistance">
+<addon id="script.resistance.metadata" version="2.0.1.1" name="[COLOR skyblue]Resistance METADATA[/COLOR]" provider-name="Resistance">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news></news>
+        <summary>Resistance</summary>
+        <description></description>
+        <platform>all</platform>
     </extension>
 </addon>
 <addon id="plugin.video.metalgear" name="Metalgear" version="7.2.2" provider-name="Lockdown">
