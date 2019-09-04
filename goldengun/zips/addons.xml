@@ -124,7 +124,7 @@
     <news></news>
     </extension>
 </addon>
-<addon id="plugin.video.watchdogs" version="1.1.0" name="[B][COLOR red]Watchdogs[/COLOR] Video[/B]" provider-name="Wrench">
+<addon id="plugin.video.watchdogs" version="1.2.0" name="[B][COLOR red]Watchdogs[/COLOR] Video[/B]" provider-name="Wrench">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.watchdogs.metadata" />
