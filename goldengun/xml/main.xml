@@ -1,29 +1,17 @@
   <dir>
     <title>Movies 4K</title>
-    <link>http://miniaturelife67.co.uk/frank/ghost/ghostxmls/xmls1/wwe.xml</link>
+    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/4k.xml</link>
 	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
   </dir>
   
   <dir>
     <title>Movies 4K RD</title>
-    <link>http://miniaturelife67.co.uk/frank/ghost/ghostxmls/xmls1/wwe2.xml</link>
+    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/4krd.xml</link>
 	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
   </dir>
   
   <dir>
     <title>1 Click Movies</title>
-    <link>http://miniaturelife67.co.uk/frank/ghost/ghostxmls/xmls1/madmax.xml</link>
-	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
-  </dir>
-  
-  <dir>
-    <title>Real Debrid</title>
-    <link>http://miniaturelife67.co.uk/frank/ghost/ghostxmls/xmls1/rd.xml</link>
-	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
-  </dir>
-  
-  <dir>
-    <title>1 Click Kids</title>
-    <link>http://miniaturelife67.co.uk/frank/ghost/ghostxmls/xmls1/minions.xml</link>
+    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/1click.xml</link>
 	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
   </dir>
