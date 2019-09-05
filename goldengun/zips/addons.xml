@@ -1,5 +1,5 @@
 <addons>
-<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.5" provider-name="goldengun">
+<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.6" provider-name="goldengun">
 	<extension point="xbmc.addon.repository" name="goldengun">
 	    <dir>
 		    <info compressed="false">https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/zips/addons.xml</info>
@@ -10,6 +10,11 @@
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/xxxbones/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/stitches5150/xxxbones/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/stitches5150/xxxbones/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">http://paulbunyan.xyz/repo/addons.xml</info>
