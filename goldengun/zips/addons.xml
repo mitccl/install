@@ -1,5 +1,5 @@
 <addons>
-<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.2" provider-name="goldengun">
+<addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.5" provider-name="goldengun">
 	<extension point="xbmc.addon.repository" name="goldengun">
 	    <dir>
 		    <info compressed="false">https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/zips/addons.xml</info>
@@ -7,14 +7,24 @@
 		    <datadir zip="true">https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/zips</datadir>
         </dir>
 		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/stitches5150/xxxbones/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/stitches5150/xxxbones/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/stitches5150/xxxbones/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://paulbunyan.xyz/repo/addons.xml</info>
+			<checksum>http://paulbunyan.xyz/repo/addons.xml.md5</checksum>
+		    <datadir zip="true">http://paulbunyan.xyz/repo/files/</datadir>
+		</dir>
+		<dir>
 		    <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
 		</dir>
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/zips/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
@@ -30,21 +40,6 @@
 		    <info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml</info>
 		    <checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/</datadir>
-		</dir>
-		<dir>
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
-        </dir>
-		<dir>
-			<info>https://raw.githubusercontent.com/louisbraun/repoaddons/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/louisbraun/repoaddons/master/addons.xml.md5</checksum>
-			<datadir>https://github.com/louisbraun/repoaddons/raw/master/addons</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
