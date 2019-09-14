@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<addon id="skin.zest" version="1.4.0" name="Zest" provider-name="Lockdown">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Zest, improved, more light and more powerful than ever.</summary>
+		<description lang="en">The Ace reaches its second edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Zest incorporates new features such as Flexible Widgets 3nd Generation which takes the main menu's level of customization to something never seen before.[CR]Zest, you've never seen a skin like this.</description>
+		<disclaimer lang="en_GB">Zest, improved, more light and more powerful than ever.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>https://forum.kodi.tv/</forum>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
