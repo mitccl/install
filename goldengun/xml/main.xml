@@ -15,3 +15,9 @@
     <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/1click.xml</link>
 	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
   </dir>
+
+<dir>
+    <title>tests</title>
+    <link>http://103.91.144.230/ftpdata/Movies/Hollywood/</link>
+	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
+  </dir>
