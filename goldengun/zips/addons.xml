@@ -144,7 +144,7 @@
     <news></news>
     </extension>
 </addon>
-<addon id="plugin.video.watchdogs" version="1.2.0" name="[B][COLOR red]Watchdogs[/COLOR] Video[/B]" provider-name="Wrench">
+<addon id="plugin.video.watchdogs" version="1.3.0" name="[B][COLOR red]Watchdogs[/COLOR] Video[/B]" provider-name="Marcus Halloway-DeDSeC">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.watchdogs.metadata" />
@@ -152,6 +152,7 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="plugin.video.defalt" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
