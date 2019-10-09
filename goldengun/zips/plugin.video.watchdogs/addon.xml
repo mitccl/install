@@ -7,7 +7,6 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="plugin.video.defalt" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
