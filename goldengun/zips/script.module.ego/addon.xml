@@ -1,0 +1,18 @@
+<addon id="script.module.ego" name="[COLOR yellow]I Am Ego Module[/COLOR]" provider-name="Guardian" version="9.9.9.9.9.9.9.9.9">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.dateutil" />
+        <import addon="script.module.futures" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension library="lib" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <summary>I Am Ego Module</summary>
+        <description>I Am Ego Module</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
