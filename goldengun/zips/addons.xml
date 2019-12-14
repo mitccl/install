@@ -1,8 +1,5 @@
 <addons>
 <addon id="repository.goldengun" name="[COLOR yellow]goldengun[/COLOR]" version="9.1.8" provider-name="goldengun">
-    <requires>
-        <import addon="script.block.tvaddons"/>
-    </requires>
 	<extension point="xbmc.addon.repository" name="goldengun">
 	    <dir>
 		    <info compressed="false">https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/zips/addons.xml</info>
