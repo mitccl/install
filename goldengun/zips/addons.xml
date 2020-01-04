@@ -168,7 +168,7 @@
         <news></news>
     </extension>
 </addon>
-<addon id="script.module.resistance" name="[COLOR skyblue]Resistance MODULE[/COLOR]" version="5.5.5.7.8" provider-name="Lockdown">
+<addon id="script.module.resistance" name="[COLOR skyblue]Resistance MODULE[/COLOR]" version="5.5.5.7.9" provider-name="Lockdown">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
@@ -582,7 +582,7 @@ level.</description>
     <source>https://bitbucket.org/lazka/mutagen/overview</source>
   </extension>
 </addon>
-<addon id="plugin.video.ego" version="2019.0.7.0.1.0.0.0" name="[COLOR yellow]I Am ego[/COLOR]" provider-name="Guardian_Guru">
+<addon id="plugin.video.ego" version="2019.0.7.0.1.0.0.1" name="[COLOR yellow]I Am ego[/COLOR]" provider-name="Guardian_Guru">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />

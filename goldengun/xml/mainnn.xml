@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layoutype>test</layoutype>
+<fanart>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</fanart>
+<SetViewMode>1</SetViewMode>
+
+<item>
+<title>List 1</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>2019</name>
+<listrepeat><![CDATA[
+   <title>[COLOR orange][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>https://fgig.ir/movie/2019/</link>
+   <thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>https://fgig.ir/movie/</page>
+</regex>
+<thumbnail>https:.png</thumbnail>
+</item>
