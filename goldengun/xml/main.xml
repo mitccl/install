@@ -16,15 +16,3 @@
 	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
   </dir>
 
- <dir>
-    <title>Collections</title>
-    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/test.xml</link>
-	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
-  </dir>
-  
-  <dir>
-    <title>test</title>
-    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/mainn.xml</link>
-	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
-  </dir>
-  
