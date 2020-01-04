@@ -22,4 +22,9 @@
 	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
   </dir>
   
+  <dir>
+    <title>Test</title>
+    <link>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/mainn.xml</link>
+	<thumbnail>https://raw.githubusercontent.com/Goldengunrepo/install/master/goldengun/xml/d.png</thumbnail>
+  </dir>
   
