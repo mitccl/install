@@ -14,8 +14,17 @@
 <listrepeat></listrepeat>
 <expres></expres>
 <page>http://130.185.144.63/Movies/</page>
-</regex>
 <regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR lime][makelist.param1][/COLOR]</title>
+                        <link>http://130.185.144.63/Movies/</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres></expres>
+            <page></page>
+            <cookieJar></cookieJar>
+		</regex>
 <name>get-url</name>
 <expres></expres>
 <page></page>
