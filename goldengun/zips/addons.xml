@@ -582,7 +582,7 @@ level.</description>
     <source>https://bitbucket.org/lazka/mutagen/overview</source>
   </extension>
 </addon>
-<addon id="plugin.video.ego" version="2019.0.7.0.1.0.0.1" name="[COLOR yellow]I Am ego[/COLOR]" provider-name="Guardian_Guru">
+<addon id="plugin.video.ego" version="2019.0.7.0.1.0.0.2" name="[COLOR yellow]I Am ego[/COLOR]" provider-name="Guardian_Guru">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
