@@ -138,12 +138,15 @@
     <news></news>
     </extension>
 </addon>
-<addon id="plugin.video.resistance" version="6.1.0.0.2" name="[COLOR skyblue]Resistance[/COLOR]" provider-name="Resistance">
+<addon id="plugin.video.resistance" version="7.1.0.0.2" name="[COLOR skyblue]Resistance[/COLOR]" provider-name="Resistance">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.resistance" />
+		<import addon="script.module.openscrapers"/>
         <import addon="script.resistance.artwork" />
         <import addon="script.resistance.metadata" />
+		<import addon="script.metalgearsolid" />
+		<import addon="plugin.video.metalgear" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.metahandler" version="1.0.0" />
         <import addon="plugin.video.youtube" />
@@ -168,7 +171,7 @@
         <news></news>
     </extension>
 </addon>
-<addon id="script.module.resistance" name="[COLOR skyblue]Resistance MODULE[/COLOR]" version="5.5.5.8.9" provider-name="Lockdown">
+<addon id="script.module.resistance" name="[COLOR skyblue]Resistance MODULE[/COLOR]" version="6.5.5.8.9" provider-name="Lockdown">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
