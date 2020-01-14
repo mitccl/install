@@ -236,7 +236,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.metalgear" name="Metalgear" version="7.2.2" provider-name="Lockdown">
+<addon id="plugin.video.metalgear" name="metalgear" version="7.3.3" provider-name="lockdown">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="metadata.tvdb.com" version="3.0.14"/>
@@ -251,11 +251,11 @@
 	<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
 			<item library="context.py">
-				<label>Metalgear - Default Player</label>
+				<label>metalgear - Default Player</label>
 				<visible>!String.StartsWith(ListItem.path,plugin://plugin.video.metalgear/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
 			</item>
 			<item library="context2.py">
-				<label>Metalgear - Choose Player</label>
+				<label>metalgear - Choose Player</label>
 				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
 			</item>
 		</menu>
@@ -272,7 +272,8 @@
 		<forum></forum>
 		<website></website>
 		<source></source>
-		<news></news>
+		<news>
+		</news>
 	</extension>
 </addon>
 <addon id="plugin.program.metalgear" name="Metalgear Wizard" version="1.1.1" provider-name="Solid_Snake">
