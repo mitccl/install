@@ -822,7 +822,7 @@ level.</description>
 		<news></news>
 	</extension>
 </addon>
-<addon id="script.devil_dogg.artwork" version="1.0.2" name="devil_dogg Artwork" provider-name="lockdown">
+<addon id="script.devil_dogg.artwork" version="1.0.3" name="devil_dogg Artwork" provider-name="lockdown">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
