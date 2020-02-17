@@ -109,7 +109,7 @@
         <import addon="script.module.requests"/>
         <import addon="script.module.beautifulsoup"/>
         <import addon="script.module.futures"/>
-        <import addon="script.mmetalgearsolid"/>
+        <import addon="script.metalgearsolid"/>
     </requires>
 	<extension point="xbmc.python.pluginsource" library="resistance.py">
 		<provides>video</provides>
