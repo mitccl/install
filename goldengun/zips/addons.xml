@@ -73,26 +73,6 @@
         </assets>
     </extension>
 </addon>
-<addon id="skin.zest" version="1.4.0" name="Zest" provider-name="Lockdown">
-	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Zest, improved, more light and more powerful than ever.</summary>
-		<description lang="en">The Ace reaches its second edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Zest incorporates new features such as Flexible Widgets 3nd Generation which takes the main menu's level of customization to something never seen before.[CR]Zest, you've never seen a skin like this.</description>
-		<disclaimer lang="en_GB">Zest, improved, more light and more powerful than ever.</disclaimer>
-		<platform>all</platform>
-		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<forum>https://forum.kodi.tv/</forum>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
 <addon id="skin.aeon.nox.s.e" version="1.1.1.1" name="Aeon Nox :S/E: Special Edition" provider-name="Lockdown">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
@@ -120,100 +100,40 @@
 		<news>[I][COLOR FFFF9800]v7.0.2[/COLOR][/I][CR]- Add an option for 2, 3, and 4 seconds to fanart per image time[CR]- Fix star ratings in DialogSubtitles.xml[CR]- Vertical Menu fixes[CR]- Add option to Fullscreen Video Info to Show More Details when pressing down[CR]- Fixes for LibreELEC and CoreELEC settings menus[CR]- PVR fixes and additions[CR]- Add support for Atmos and DTS:X icons[CR]- Add Fanart List for Sets[CR][I][COLOR FFFF9800]v7.0.1[/COLOR][/I][CR]- Make fullscreen info for recordings (Skin settings > Customization > Live TV) and add-ons (Skin settings > Customization > Video OSD) opt-in[CR]- Fix auto fullscreen music launching on PVR playback[CR][I][COLOR FFFF9800]v7.0.0[/COLOR][/I][CR]- Add RightList and Logo views for Movie Sets[CR]- Fix for Square Widgets[CR]- Add option to move VideoOSD buttons to top[CR]- Add tiny posters to Fullscreen Wall[CR]- Caviar Dreams font fixes[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikes.e164/Aeon-Nox-s.e/commits/master[/COLOR][/I]</news>
 	</extension>
 </addon>
-<addon id="script.module.resistancescrapers" name="resistance Module" version="2.2.3.7" provider-name="resistance">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup4"/>
+<addon id="plugin.video.resistance" version="7.1.1.1.3" name="Resistance" provider-name="lockdown_machine">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.resolveurl"/>
+		<import addon="script.module.openscrapers" />
+        <import addon="script.module.metahandler"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.futures"/>
+        <import addon="script.mmetalgearsolid"/>
     </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py">
-        <provides>executable</provides>
-    </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">Scrapers Module</summary>
-            <description></description>
-                <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-<addon id="plugin.video.resistance" version="7.1.1.0.2" name="[COLOR skyblue]Resistance[/COLOR]" provider-name="Resistance">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.resistance" />
-		<import addon="script.module.openscrapers"/>
-        <import addon="script.resistance.artwork" />
-        <import addon="script.resistance.metadata" />
-		<import addon="script.metalgearsolid" />
-		<import addon="plugin.video.metalgear" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.metahandler" version="1.0.0" />
-        <import addon="plugin.video.youtube" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="resistance.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Resistance tv/movie plugin</summary>
-        <description lang="en"></description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum></forum>
-        <website></website>
-        <source></source>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <news></news>
-    </extension>
-</addon>
-<addon id="script.module.resistance" name="[COLOR skyblue]Resistance MODULE[/COLOR]" version="7.5.5.8.9" provider-name="Lockdown">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup4"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Resistance Module</summary>
-        <assets>
-          <icon>icon.png</icon>
-        </assets>       
-    </extension>
-</addon>
-<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.36" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="plugin.video.elementum" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.script" library="burst.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Elementum torrents provider</summary>
-        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
-        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
-        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
-        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-	<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
-        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
-        <website>https://elementum.surge.sh</website>
-        <source>https://github.com/elgatito/script.elementum.burst</source>
-        <forum>TODO</forum>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
+	<extension point="xbmc.python.pluginsource" library="resistance.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MoviES/TV Show and Playlist Plugin.</summary>
+		<description lang="en">MoviES/TV Show and Playlist Plugin.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
+The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
+</disclaimer>
+		<platform>all</platform>
+		<license>GNU</license>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 <addon id="repository.elementum" name="Elementum Repository" version="0.1.31" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
 <addon id="script.resistance.artwork" version="2.0.2.7" name="[COLOR skyblue]Resistance ARTWORK[/COLOR]" provider-name="Resistance">
@@ -228,17 +148,6 @@
         <assets>
           <icon>icon.png</icon>
         </assets>
-    </extension>
-</addon>
-<addon id="script.resistance.metadata" version="2.0.1.1" name="[COLOR skyblue]Resistance METADATA[/COLOR]" provider-name="Resistance">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Resistance</summary>
-        <description></description>
-        <platform>all</platform>
     </extension>
 </addon>
 <addon id="plugin.video.metalgear" name="metalgear" version="7.3.3" provider-name="lockdown">
