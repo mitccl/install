@@ -805,4 +805,107 @@ level.</description>
     </assets>
   </extension>
 </addon>
+<addon id="script.module.tt" name=" TvTap" version="1.4.b" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Tap Tv Android Apk</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="script.module.swiftstreamz" name="script.module.swiftstreamz" version="2.3" provider-name="cloned Cy4Root">
+  <requires>
+    <import addon="script.module.requests" />
+    <import addon="script.module.requests-cache" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cloned for Cy4Root users from RACC SwiftStreamz Module. All credit must go to anyone involved in the Original Code</summary>
+    <description lang="en_gb">Module for SwiftStreamz APK</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+<addon id="script.module.laola1tv" name="Laola1.tv" version="1.1.9" provider-name="Cy4Root">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Fix from cy4root credit go to the dev stipx (Free user only)</summary>
+		<description lang="en">Provides streams from laola1.tv</description>
+		<license>GNU General Public License, v2</license>
+	</extension>
+</addon>
+<addon id="plugin.video.sportzig" version="0.0.06" name="[COLOR fuchsia][B]Sport[COLOR white]Zig[/B][/COLOR]" provider-name="Cy4Root">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="script.module.dateutil" />
+	<import addon="plugin.video.live.streamspro" />
+	<import addon="script.module.laola1tv" />
+	<import addon="script.module.swiftstreamz" />
+	<import addon="script.module.tt" />
+	<import addon="plugin.video.SportsDevil" />
+
+
+
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" />
+        <!--<import addon="script.module.urlresolver" />-->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+		<description lang="en">Sport Entertainment</description>
+    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+        <license></license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+- New Jen Template
+
+- Fixed error 404       v0.0.05 
+
+- references adjusted   v0.0.04
+
+- New, Based op Jen     v0.0.03
+			
+- Added: Sportube       v0.0.02
+   
+- Beta Release 	        v0.0.01 Jan 2020
+
+- Beta Version from Cy4Root
+		</news>
+	</extension>
+</addon>
 </addons>
