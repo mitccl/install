@@ -38,7 +38,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.resistance" version="7.2.2.1.3" name="Resistance" provider-name="lockdown_machine">
+<addon id="plugin.video.resistance" version="7.2.2.1.4" name="Resistance" provider-name="lockdown_machine">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.resolveurl"/>
