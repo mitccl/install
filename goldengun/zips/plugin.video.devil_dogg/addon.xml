@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.devil_dogg" version="1.0.1 name="devil_dogg" provider-name="lockdown">
+<addon id="plugin.video.devil_dogg" version="1.0.0" name="devil_dogg" provider-name="lockdown">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.devil_dogg" />
