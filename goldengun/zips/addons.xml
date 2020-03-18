@@ -38,7 +38,95 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.resistance" version="8.0.0.0.1" name="Resistance" provider-name="lockdown_machine">
+<addon id="script.speedtestnet"
+       name="ARNU Box Speed Tester"
+       version="1.0.0"
+       provider-name="ARNU Box / Josh.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ARNU Box Speed Tester</summary>
+    <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="script.pystone.benchmark" name="CPU Benchmark" version="1.1.0" provider-name="Lunatixz">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Test your devices python performance.</summary>
+        <description lang="en_GB">How fast does your device run python code? Pystone evaluates CPU performance running in a python environment.</description>
+        <license>The MIT License (MIT)</license>
+        <platform>all</platform>
+        <source>https://github.com/Lunatixz/XBMC_Addons/tree/master/script.pystone.benchmark</source>
+        <news></news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="script.io.benchmark" name="I/O Benchmark" version="1.1.0" provider-name="Lunatixz">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Test your devices read/write performance.</summary>
+        <description lang="en_GB">How fast does your device read and write?</description>
+        <license>The MIT License (MIT)</license>
+        <platform>all</platform>
+        <source>https://github.com/Lunatixz/XBMC_Addons/tree/master/script.io.benchmark</source>
+        <news></news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="script.logviewer" name="Log Viewer for Kodi" provider-name="i96751414" version="2.1.1">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=223490</forum>
+        <source>https://github.com/i96751414/script.logviewer</source>
+        <summary lang="en">View Kodi logfile directly on Kodi</summary>
+        <summary lang="pt">Veja o log do Kodi directamente no Kodi</summary>
+        <description lang="en">Tools to easily check and analyse Kodi log file.</description>
+        <description lang="pt">Ferramenta para verificar e ler facilmente o log do Kodi.</description>
+        <platform>all</platform>
+        <news>
+- Fix android file handling
+- Add http server (webtail)
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>resources/images/screenshot-1.png</screenshot>
+            <screenshot>resources/images/screenshot-2.png</screenshot>
+            <screenshot>resources/images/screenshot-3.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.resistance" version="8.0.0.1.1" name="Resistance" provider-name="lockdown_machine">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.resolveurl"/>
@@ -48,14 +136,19 @@
         <import addon="script.module.beautifulsoup"/>
         <import addon="script.module.futures"/>
         <import addon="script.metalgearsolid"/>
+		<import addon="script.speedtestnet"/>
+		<import addon="plugin.program.metalgear"/>
+		<import addon="script.pystone.benchmark"/>
+		<import addon="script.io.benchmark"/>
+		<import addon="script.logviewer"/>
     </requires>
 	<extension point="xbmc.python.pluginsource" library="resistance.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">MoviES/TV Show and Playlist Plugin.</summary>
-		<description lang="en">MoviES/TV Show and Playlist Plugin.</description>
+		<summary lang="en">Movie's+TV Show's Plugin.</summary>
+		<description lang="en">Movie's+TV Show's Plugin.</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.
 The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
 This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.
